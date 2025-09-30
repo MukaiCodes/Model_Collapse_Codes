@@ -5,7 +5,7 @@ This repository contains all code for the experiments in our study on model coll
 ## 1. Repository Structure
 
 
-## In Simulation, each scenario has its own folder
+### In Simulation, each scenario has its own folder
 - **Scenario1/**: Contains all codes for Scenario 1. Running the corresponding Python file (S1_Model_Collapse.py) will directly generate all necessary figures (Figure 7 (a)-(f)).
 - **Scenario2/**: Contains all codes for Scenario 2. Running the corresponding Python file (S2_GoldenRatio.py) will directly generate all necessary figures (Figure 8 (a)-(f)).
 - **Scenario3/**: Contains all codes for Scenario 3. Running the corresponding Python file (S3_Large_M.py) will directly generate all necessary figures ( Figure 9 (a)-(f)).
