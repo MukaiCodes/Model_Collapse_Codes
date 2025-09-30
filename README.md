@@ -40,14 +40,17 @@ pip install -r requirements.txt
 # Get Figure 7 (a)-(f)
 cd Scenario_1
 python S1_Model_Collapse.py
+cd ..
 
 # Get Figure 8 (a)-(f)
 cd Scenario_2
 python S2_GoldenRatio.py
+cd ..
 
 # Get Figure 9 (a)-(f)
 cd Scenario_3
 python S3_Large_M.py
+cd ..
 
 cd Real_Data
 python Real_Data_Experiment.py  # Get Figure 10 (d)
