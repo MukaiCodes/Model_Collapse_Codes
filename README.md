@@ -1,28 +1,14 @@
 # Model_Collapse_Codes
 
-This repository contains all code for the experiments in our study on model collapse. It includes both simulation studies and real-data applications.  
-
-Repository link: [https://github.com/MukaiCodes/Model_Collapse_Codes](https://github.com/MukaiCodes/Model_Collapse_Codes.git)
+This repository contains all code for the experiments in our study on model collapse, our paper is at \url{https://arxiv.org/abs/2502.18049} It includes both simulation studies and real-data applications. Repository link: [https://github.com/MukaiCodes/Model_Collapse_Codes](https://github.com/MukaiCodes/Model_Collapse_Codes.git)
 
 ## 1. Repository Structure
 
-Model_Collapse_Codes/
-│
-├─ simulations/
-│ ├─ Scenario_1/
-│ │ └─ run S1_Model_Collapse.py
-│ ├─ Scenario_2/
-│ │ └─ run S2_GoldenRatio.py
-│ └─ Scenario_3
-│ │ └─ run S3_Large_M.py
-├─ Real_Data/
-│ └─ run Real_Data_Experiment.py
-│ └─ run Real_Data_Experiment_Discrete.py
-├─ requirements.txt
-└─ README.md
 
 
-- **simulations/**: Contains all simulation scenarios. Each scenario has its own folder. Running the corresponding Python file will directly generate all necessary figures.  
+- **Scenario1/**: Contains all simulation scenarios. Each scenario has its own folder. Running the corresponding Python file will directly generate all necessary figures.
+- **Scenario2/**: Contains all simulation scenarios. Each scenario has its own folder. Running the corresponding Python file will directly generate all necessary figures.
+- **Scenario3/**: Contains all simulation scenarios. Each scenario has its own folder. Running the corresponding Python file will directly generate all necessary figures. 
 - **real_data/**: Contains scripts for real-data experiments.  
 - **requirements.txt**: Lists all Python dependencies.  
 - **README.md**: This file.  
