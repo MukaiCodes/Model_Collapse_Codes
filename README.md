@@ -5,11 +5,13 @@ This repository contains all code for the experiments in our study on model coll
 ## 1. Repository Structure
 
 
-
-- **Scenario1/**: Contains all simulation scenarios. Each scenario has its own folder. Running the corresponding Python file will directly generate all necessary figures.
-- **Scenario2/**: Contains all simulation scenarios. Each scenario has its own folder. Running the corresponding Python file will directly generate all necessary figures.
-- **Scenario3/**: Contains all simulation scenarios. Each scenario has its own folder. Running the corresponding Python file will directly generate all necessary figures. 
-- **real_data/**: Contains scripts for real-data experiments.  
+## In Simulation, each scenario has its own folder
+- **Scenario1/**: Contains all codes for Scenario 1. Running the corresponding Python file (S1_Model_Collapse.py) will directly generate all necessary figures (Figure 7 (a)-(f)).
+- **Scenario2/**: Contains all codes for Scenario 2. Running the corresponding Python file (S2_GoldenRatio.py) will directly generate all necessary figures (Figure 8 (a)-(f)).
+- **Scenario3/**: Contains all codes for Scenario 3. Running the corresponding Python file (S3_Large_M.py) will directly generate all necessary figures ( Figure 9 (a)-(f)).
+- **real_data/**: Contains scripts for real-data experiments
+  - Real_Data_Experiment.py: Run this Python file will generate Figure 10 (d)
+  - Real_Data_Experiment_Discrete.py: Run this Python file will generate Figure 10 (a)-(c)
 - **requirements.txt**: Lists all Python dependencies.  
 - **README.md**: This file.  
 
